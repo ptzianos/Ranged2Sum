@@ -8,7 +8,7 @@ instead of doing a naive solution
 
 ## Run
 
-go main.go
+go run main.go
 
 Should print something like "There are 1000 sums"
 
