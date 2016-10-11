@@ -47,10 +47,9 @@ func main() {
 				resultRegistry[nextInt + it.Key().(int)] = 1
 			}
 		}
-		if i > 0 && i % 10000 == 0 {
-			fmt.Println("processed 10 thousand targets")
+		if *debug && i > 0 && i % 10000 == 0 {
+			fmt.Println("processed 10 thousand ints")
 		}
 	}
-
 	fmt.Println("There are", targetsFound, "targets")
 }
